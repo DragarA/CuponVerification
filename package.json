@@ -1,0 +1,19 @@
+{
+  "name": "cuponverification",
+  "version": "1.0.0",
+  "description": "web based application for generatin and verifying cupons",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Anže Dragar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "qrcode": "^1.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
